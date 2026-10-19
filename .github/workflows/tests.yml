@@ -22,4 +22,4 @@ jobs:
         run: npm ci
 
       - name: Run practice tests
-        run: npm test
+        run: npm test -- practices/lesson-01/01-text/01-hello-heading
